@@ -1,7 +1,7 @@
 # Programa de ingreso de Pacientes
 ## Requisitos 
 1. **Java 22 o superior** 
-2. **Intellij Idea** El proyecto fue creado con el builder de Intellij por lo que es obligatorio compilarlo en Intellij Idea
+2. **Intellij Idea:** El proyecto fue creado con el builder de Intellij por lo que es obligatorio compilarlo en Intellij Idea
 ## Instalacion
 1. Clona o descarga los archivos del repositorio
 2. Abra el proyecto en **Intellij Idea**
