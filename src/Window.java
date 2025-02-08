@@ -14,14 +14,14 @@ public class Window extends JFrame {
     private JButton cancelarButton;
     private JTextField dpi;
 
-    // Constructor
+
     public Window() {
-        // Configuración de la ventana
+
         setTitle("Guardar Datos de Pacientes");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400, 300);
 
-        // Crear los componentes de la interfaz
+
         nombre = new JTextField(20);
         apellido = new JTextField(20);
         edad = new JTextField(20);
@@ -32,7 +32,7 @@ public class Window extends JFrame {
         Guardar = new JButton("Guardar");
         cancelarButton = new JButton("Cancelar");
 
-        // Crear un panel para agregar los componentes
+
         JPanel panel = new JPanel();
         panel.add(new JLabel("DPI:"));
         panel.add(dpi);
@@ -49,10 +49,10 @@ public class Window extends JFrame {
         panel.add(Guardar);
         panel.add(cancelarButton);
 
-        // Establecer el contentPane
+
         setContentPane(panel);
 
-        // Acción del botón Guardar
+
         Guardar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -60,7 +60,7 @@ public class Window extends JFrame {
             }
         });
 
-        // Acción del botón Cancelar
+
         cancelarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -69,7 +69,7 @@ public class Window extends JFrame {
         });
     }
 
-    // Método para guardar los datos en un archivo de texto
+
     private void guardarDatos() {
         // Obtener los valores de los campos de texto
         String nombreText = nombre.getText();
